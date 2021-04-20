@@ -12,8 +12,8 @@ class FeaturedEvent extends React.Component {
                 {/* <img src={ cardImage } alt="Featured Event Image" className="featured-event-card__image" width={ this.props.width} height={ this.props.height }/> */}
                 <div className="featured-event-card_date">
                     <div className="featured-event-card_date_box">
-                        <p>{ day }</p>
-                        <p>{ month }</p>
+                        <div id="featured-event-day">{ day }</div>
+                        <div id="featured-event-month">{ month }</div>
                     </div>
                 </div>
                 <div className="featured-event-card_title">

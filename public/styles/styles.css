@@ -188,9 +188,20 @@ footer {
     /* padding-right: 10rem; */
     margin-bottom: 25rem;
 }
+#featured-event-day {
+    color: #FF227F;
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
+}
+#featured-event-month {
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
 .featured-event-card_date_box {
-    padding: 1rem 3rem;
-    border: 1rem 3rem 10rem 3rem;
+    padding: 2rem 3rem;
+    border: 1rem 3rem 8rem 3rem;
 }
 .featured-event-card__1 {
     width: 400px;
