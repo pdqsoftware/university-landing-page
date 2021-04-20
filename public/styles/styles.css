@@ -31,6 +31,9 @@ footer {
 .footer_social {
     display: inline-block;
 }
+.footer_twitter {
+    font-size: 0.75rem;
+}
 .footer_caption {
     text-align: right;
     font-family: "Helvetica";
@@ -44,6 +47,9 @@ footer {
     /* width: 65%; */
     text-align: right;
     font-family: "Helvetica";
+    font-weight: 500;
+}
+.footer_university_name {
     font-weight: 800;
 }
 .footer_crest {

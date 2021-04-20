@@ -14,13 +14,14 @@ class Footer extends React.Component {
                 <div className="footer_twitter">
                     <div>
                         <div className="footer_crest">
-                            <img src="images/crest.png" alt="Ludlow University crest" className="crest__image" width="20px"/>
+                            <img src="images/crest.png" alt="Ludlow University crest" className="crest__image" width="15px"/>
                         </div>
                         <div className="footer_university">
-                            <div>Ludlow</div>
-                            <div>University</div>
+                            <div className="footer_university_name">
+                                Ludlow University
+                            </div>
                         
-                            <img src="images/twitter-large.png" alt="Ludlow University crest" className="twitter-large_image" width="40px"/>
+                            <img src="images/twitter-large.png" alt="Twitter icon" className="twitter-large_image" width="40px"/>
                             <div className="footer_username">
                                 @ludlowuni
                             </div>
