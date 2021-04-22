@@ -15,13 +15,24 @@ header {
     display: inline-block;
     width: 65%;
     font-weight: 800;
+    font-size: 1.6rem;
+    font-family: Arial;
 }
 .header_navigate {
     display: inline-block;
 }
 #header_navigate__item {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1rem;
+    font-weight: 400;
+}
+#header_navigate__magnify {
+    display: inline-block;
+    margin-right: 2rem;
+    padding-top: 2rem;
 }
 
 footer {
@@ -80,7 +91,7 @@ footer {
 }
 .hero-text_title {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 3rem;
     text-transform: uppercase;
 }
@@ -108,7 +119,7 @@ footer {
     border-image: linear-gradient(98.01deg, #00C2FF 14.16%, #FF27C3 79.91%) 1;
 }
 .hero-image {
-    float: left;
+    float: right;
 }
 .hero-image_image {
     width: 752px;
@@ -116,7 +127,7 @@ footer {
 
 /*  Cards */
 .cards {
-    clear: left;
+    clear: right;
 }
 .largecard {
     float: left;
@@ -214,24 +225,28 @@ footer {
     display: inline-block;
     background-image: url("../images/fe-card1.png");
     background-repeat:no-repeat;
-    background-size:400px 624px ;
+    /* background-size:400px 624px ;*/
+    background-size: cover;
     margin-left: 3rem;
+    margin-top: 1rem;
 }
 .featured-event-card__2 {
     width: 400px;
     display: inline-block;
     background-image: url("../images/fe-card2.png");
     background-repeat:no-repeat;
-    background-size:400px 624px ;
+    background-size: cover;
     margin-left: 3rem;
+    margin-top: 1rem;
 }
 .featured-event-card__3 {
     width: 400px;
     display: inline-block;
     background-image: url("../images/fe-card3.png");
     background-repeat:no-repeat;
-    background-size:400px 624px ;
+    background-size: cover;
     margin-left: 3rem;
+    margin-top: 1rem;
 }
 .featured-event-card_title {
     padding: 32px 16px;
@@ -254,12 +269,30 @@ footer {
 .button_underline {
     text-decoration: underline;
 }
+.crest-image {
+    margin-bottom: 0.5rem;
+}
 .twitter-large_image {
     display: inline-block;
     text-align: right;
 }
 
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightskyblue;
+    }
+    header {
+        margin: 3rem 1rem;
+    }
+}
+
+
+
 @media only screen and (max-width: 415px) {
+    body {
+        background-color: lightpink;
+    }
     header {
         margin: 2rem 1rem;
     }
@@ -270,16 +303,45 @@ footer {
     }
     .hero-text {
         margin: 0rem 3rem;
-        width: 30%;
+        width: 20%;
     }
     .hero-text_summary {
         font-size: 0.8rem;
         margin-bottom: 1rem;
     }
     .hero-image {
-        float: left;
+        float: right;
     }
     .hero-image_image {
-        width: 150px;
+        width: 200px;
+    }
+
+    .featured-event-card_date {
+        display: inline-block;
+        top: 1rem;
+        left: 1rem;
+        background-color: white;
+        margin-bottom: 16rem;
+    }
+    .featured-event-card__1 {
+        width: 360px;
+        display: inline-block;
+        background-image: url("../images/fe-card1.png");
+        background-repeat:no-repeat;
+        margin-left: 1.5rem;
+    }
+    .featured-event-card__2 {
+        width: 360px;
+        display: inline-block;
+        background-image: url("../images/fe-card2.png");
+        background-repeat:no-repeat;
+        margin-left: 1.5rem;
+    }
+    .featured-event-card__3 {
+        width: 360px;
+        display: inline-block;
+        background-image: url("../images/fe-card3.png");
+        background-repeat:no-repeat;
+        margin-left: 1.5rem;
     }
 }
