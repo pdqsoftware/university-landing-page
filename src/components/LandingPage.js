@@ -20,7 +20,18 @@ class LandingPage extends React.Component {
             feDates: ['01Aug', '14Aug', '21Aug'],
             feText: ['Ludlow campus rock festival 2019',
                     '2019 game design exhibition',
-                    'Study collaboration session']
+                    'Study collaboration session'],
+            cardTitles: ['Activities and clubs', 
+                    'Accomodation', 
+                    'Chat to a student', 
+                    'Support', 
+                    'Life in Ludlow'],
+            cardTexts: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus luctus odio. Curabitur bibendum faucibus.',
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id leo tincidunt, iaculis diam at.',
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac mattis urna, a iaculis tellus.',
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur bibendum venenatis. Donec nec neque.',
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consectetur venenatis tortor at pellentesque. Nulla.'
+                    ]
         }
     }
 
@@ -40,6 +51,8 @@ class LandingPage extends React.Component {
                         />
                         <Cards 
                             imageHome = { this.state.images}
+                            cardTitles = { this.state.cardTitles}
+                            cardTexts = { this.state.cardTexts}
                         />
                         <FeatureBanner />
                         <UpcomingEvents 

@@ -5,9 +5,16 @@ body {
 
 
 header {
-    margin: 5rem 3rem;
+    margin: 3rem 0rem;
 }
-.header_crest {
+.header-crest {
+    float: left;
+    /* display: inline-block; */
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+.header-crest_crest {
     display: inline-block;
     margin-right: 1rem;
 }
@@ -19,7 +26,8 @@ header {
     font-family: Arial;
 }
 .header_navigate {
-    display: inline-block;
+    float: right;
+    /* display: inline-block; */
 }
 #header_navigate__item {
     display: inline-block;
@@ -37,10 +45,79 @@ header {
 
 footer {
     clear: left;
-    margin: 5rem 3rem;
+    margin: 5rem 0rem;
 }
-.footer_social {
+.footer-university-lhs {
     display: inline-block;
+    /* width: 65%; */
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-family: Arial;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+.footer-university_crest {
+    display: inline-block;
+}
+.footer-university_text {
+    margin-left: 0.5rem;
+    display: inline-block;
+    text-align: left;
+}
+.footer-university_twitter-header {
+    margin-left: 0.5rem;
+    display: inline-block;
+    text-align: left;
+    font-size: 0.7rem;
+    font-family: Helvetica;
+}
+.footer-university_twitter-body {
+    /* margin-left: 0.5rem; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    text-align: left;
+    font-size: 0.7rem;
+    font-family: Helvetica;
+    font-weight: 400;
+    width: 16rem;
+}
+.footer-university_twitter-body_text {
+    margin-bottom: 2rem;
+}
+.footer-university_twitter-icon {
+    display: inline-block;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.footer-lhs {
+    float: left;
+    /* display: inline-block; */
+    width: 60%;
+    border-top: 1px solid lightgrey;
+}
+.footer-lhs-watermark {
+    height: 22rem;
+    /* width: 10rem; */
+    margin-left: 3rem;
+    background-image: url("../images/large-crest-watermark.svg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    /* border: 2px solid black; */
+}
+.footer-rhs {
+    float: right;
+    /* display: inline-block; */
+    width: 40%;
+    border-top: 1px solid lightgrey;
+}
+.footer-university-rhs {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-family: Arial;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
 }
 .footer_twitter {
     font-size: 0.75rem;
@@ -55,13 +132,17 @@ footer {
 }
 .footer_university {
     display: block;
-    /* width: 65%; */
     text-align: right;
     font-family: "Helvetica";
     font-weight: 500;
 }
 .footer_university_name {
     font-weight: 800;
+}
+#footer-university_twitter-handle, .footer-university_twitter-time {
+    font-size: 0.6rem;
+    font-weight: 100;
+    opacity: 0.5;
 }
 .footer_crest {
     display: block;
@@ -77,6 +158,7 @@ footer {
 
 /* Hero */
 .hero {
+    clear: both;
     width: auto;
     display: block;
 }
@@ -123,24 +205,124 @@ footer {
 }
 .hero-image_image {
     width: 752px;
+    margin-right: 3rem;
 }
 
 /*  Cards */
 .cards {
     clear: right;
+    margin: 3rem 3rem;
+}
+.cards-area {
+    float: left;
+    margin-bottom: 8rem;
 }
 .largecard {
-    float: left;
-    margin-left: 3rem;
+    /* float: left; */
+    display: inline-block;
+    /* margin-left: 1.5rem; */
     margin-top: 5rem;
+    margin-right: 2rem;
 }
-.largecard_image_1 {
+/* .largecard:last-child {
+    border-bottom: 5rem;
+} */
+.largecard-top {
+    margin-bottom: 430px;
+}
+.largecard-bottom {
+    display: inline-block;
+    background-color: white;
+    width: 400px;
+}
+.largecard-bottom_title {
+    display: inline-block;
+    font-weight: 400;
+    /* margin: 1.5rem; */
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+}
+.largecard-bottom_arrow-image {
+    display: inline-block;
+    /* margin: 2rem; */
+    /* padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 1rem; */
+}
+.largecard-bottom_arrow-image_image {
+    /* display: inline-block; */
+    /* margin: 2rem; */
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 1rem;
+}
+.largecard-bottom_content {
+    font-family: FiraSans;
+    font-weight: 400;
+    margin: 1rem;
+    margin-right: 5rem;
+}
+.largecard_image__1 {
+    /* float: left; */
     width: 730px;
+    height: 520px;
+    background-image: url("../images/card1.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* margin-left: 3rem; */
+    /* margin-top: 1rem; */ 
+    /* margin: 5rem 1.5rem; */
+}
+.largecard_image__2 {
+    /* float: left; */
+    width: 510px;
+    height: 520px;
+    background-image: url("../images/card2.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* margin-left: 3rem;
+    margin-top: 1rem; */
+    /* margin: 5rem 1.5rem; */
+}
+.largecard_image__3 {
+    /* float: left; */
+    width: 400px;
+    height: 520px;
+    background-image: url("../images/card3.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* margin-left: 3rem;
+    margin-top: 1rem; */
+    /* margin: 5rem 1.5rem; */
+}
+.largecard_image__4 {
+    /* float: left; */
+    width: 400px;
+    height: 520px;
+    background-image: url("../images/card4.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* margin-left: 3rem;
+    margin-top: 1rem; */
+}
+.largecard_image__5 {
+    /* float: left; */
+    width: 400px;
+    height: 520px;
+    background-image: url("../images/card5.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* margin-left: 3rem;
+    margin-top: 1rem; */
 }
 
 /* Feature Banner */
 .feature-banner {
     clear: left;
+    border: 8rem;
+    padding: 6rem;
     padding: 15rem 0;
     background-image: url("../images/banner-image.png");
     background-size: cover;
@@ -176,15 +358,22 @@ footer {
 
 
 /* Upcoming Events */
+.upcoming-events {
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
 .upcoming-events_title {
-    width: 80%;
-    display: inline-block;
-    margin-left: 5rem;
-    margin-top: 5rem;
+    float: left;
+    /* width: 70%;
+    display: inline-block; */
+    margin-left: 3rem;
+    /* margin-top: 5rem; */
 }
 .upcoming-events_button {
-    display: inline-block;
+    float: right;
+    /* display: inline-block; */
     text-align: center;
+    margin-left: 3rem;
     padding: 1rem 2rem;
     border-style: solid;
     border-width: thin;
@@ -192,12 +381,15 @@ footer {
 }
 
 /* Featured Events */
+.featured-events {
+    clear: both;
+}
 .featured-event-card {
     display: inline;
     width: 800px;
 }
 .featured-event-card_date {
-    /* clear: left; */
+
     display: inline-block;
     top: 1rem;
     left: 1rem;
@@ -276,8 +468,22 @@ footer {
     display: inline-block;
     text-align: right;
 }
+#student-life {
+    opacity: 0.4;
+    color: black;
+    font-family: Arial;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
 
 
+
+
+
+
+
+
+/* Media queries for iPad et al */
 @media only screen and (max-width: 800px) {
     body {
         background-color: lightskyblue;
@@ -285,16 +491,32 @@ footer {
     header {
         margin: 3rem 1rem;
     }
+
+    .largecard_image__1 {
+        width: 680px;
+        height: 484px;
+        background-image: url("../images/card1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 
-
+/* Media queries for narrower mobiles */
 @media only screen and (max-width: 415px) {
     body {
         background-color: lightpink;
     }
     header {
         margin: 2rem 1rem;
+    }
+
+    .largecard_image__1 {
+        width: 400px;
+        height: 285px;
+        background-image: url("../images/card1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .hero-text_title {

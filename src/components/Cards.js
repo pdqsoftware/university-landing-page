@@ -6,36 +6,38 @@ class Cards extends React.Component {
     render() {
         return (
             <section className="cards">
-                <LargeCard 
-                    cardImage='1'
-                    width='730'
-                    height='520'
-                    imageHome = { this.props.imageHome }
-                />
-                <LargeCard 
-                    cardImage='2'
-                    width='510'
-                    height='520'
-                    imageHome = { this.props.imageHome }
-                />
-                <LargeCard 
-                    cardImage='3'
-                    width='400'
-                    height='520'
-                    imageHome = { this.props.imageHome }
-                />
-                <LargeCard 
-                    cardImage='4'
-                    width='400'
-                    height='520'
-                    imageHome = { this.props.imageHome }
-                />
-                <LargeCard 
-                    cardImage='5'
-                    width='400'
-                    height='520'
-                    imageHome = { this.props.imageHome }
-                />
+                <div className="cards-area">
+                    <LargeCard 
+                        cardImage='1'
+                        imageHome = { this.props.imageHome }
+                        cardTitle = { this.props.cardTitles[0] }
+                        cardText = { this.props.cardTexts[0] }
+                    />
+                    <LargeCard 
+                        cardImage='2'
+                        imageHome = { this.props.imageHome }
+                        cardTitle = { this.props.cardTitles[1] }
+                        cardText = { this.props.cardTexts[1] }
+                    />
+                    <LargeCard 
+                        cardImage='3'
+                        imageHome = { this.props.imageHome }
+                        cardTitle = { this.props.cardTitles[2] }
+                        cardText = { this.props.cardTexts[2] }
+                    />
+                    <LargeCard 
+                        cardImage='4'
+                        imageHome = { this.props.imageHome }
+                        cardTitle = { this.props.cardTitles[3] }
+                        cardText = { this.props.cardTexts[3] }
+                    />
+                    <LargeCard 
+                        cardImage='5'
+                        imageHome = { this.props.imageHome }
+                        cardTitle = { this.props.cardTitles[4] }
+                        cardText = { this.props.cardTexts[4] }
+                    />
+                </div>
             </section>
         )
      } 
