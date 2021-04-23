@@ -5,7 +5,7 @@ class Header extends React.Component {
         return (
             <header>
                 <div id="student-life">
-                    Student Life
+                    Student Life @14.50
                 </div>
                 <div className="header-crest">
                     <div className="header-crest_crest">
