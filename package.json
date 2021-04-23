@@ -24,7 +24,8 @@
     "webpack": "webpack",
     "build": "webpack",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start": "webpack-dev-server"
   },
   "author": "Paul Pritchard",
   "license": "ISC"
