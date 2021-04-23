@@ -172,7 +172,7 @@ footer {
     width: 30%;
 }
 .hero-text_title {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 400;
     margin-bottom: 3rem;
     text-transform: uppercase;
@@ -185,7 +185,7 @@ footer {
     font-size: 1rem;
 }
 .hero-text_person__title {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     margin-bottom: 3rem;
 }
 .hero-text_button {
@@ -230,7 +230,10 @@ footer {
 /* .largecard:last-child {
     border-bottom: 5rem;
 } */
-.largecard-top {
+/* .largecard-top {
+    margin-bottom: 430px;
+} */
+.largecard-top_image__1, .largecard-top_image__2, .largecard-top_image__3, .largecard-top_image__4, .largecard-top_image__5 {
     margin-bottom: 430px;
 }
 .largecard-bottom {
@@ -376,7 +379,7 @@ footer {
     float: right;
     /* display: inline-block; */
     text-align: center;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
     padding: 1rem 2rem;
     border-style: solid;
     border-width: thin;
@@ -511,7 +514,40 @@ footer {
     header {
         margin: 3rem 1rem;
     }
+    footer {
+        margin-top: 3rem;
+    }
 
+    /* Hero */
+    .hero-text {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .hero-text_title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .hero-text_summary {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .hero-text_person {
+        font-size: 0.7rem;
+    }
+    .hero-text_person__title {
+        font-size: 0.5rem;
+    }
+    .hero-image_image {
+        width: 380px;
+    }
+
+    /* Cards */
+    .cards-area {
+        margin-bottom: 3rem;
+    }
+    .largecard {
+        margin-top: 2rem;
+    }
     .largecard_image__1 {
         width: 680px;
         height: 484px;
@@ -530,14 +566,17 @@ footer {
     header {
         margin: 2rem 1rem;
     }
-
-    .largecard_image__1 {
-        width: 400px;
-        height: 285px;
-        background-image: url("../images/card1.png");
-        background-repeat: no-repeat;
-        background-size: cover;
+    .header-crest {
+        margin-bottom: 0rem;
     }
+    #header_navigate__magnify {
+        padding-top: 0rem;
+    }
+
+    .footer-university_twitter-body {
+        width: 10rem;
+    }
+    
 
     .hero-text_title {
         font-size: 1rem;
@@ -551,13 +590,32 @@ footer {
         font-size: 0.8rem;
         margin-bottom: 1rem;
     }
+    .hero-text_person {
+        font-size: 0.7rem;
+    }
+    .hero-text_person__title {
+        font-size: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    .hero-text_button {
+        font-size: 0.75rem;
+        width: 6rem;
+        padding: 0.5rem 1rem;
+    }
     .hero-image {
         float: right;
     }
     .hero-image_image {
         width: 200px;
+        margin-right: 0.5rem;
     }
 
+    /* Upcoming Events */
+    .upcoming-events {
+        margin-right: 0rem;
+    }
+
+    /* Featured Events */
     .featured-event-card_date {
         display: inline-block;
         top: 1rem;
@@ -566,24 +624,43 @@ footer {
         margin-bottom: 16rem;
     }
     .featured-event-card__1 {
-        width: 360px;
+        width: 385px;
         display: inline-block;
         background-image: url("../images/fe-card1.png");
         background-repeat:no-repeat;
         margin-left: 1.5rem;
     }
     .featured-event-card__2 {
-        width: 360px;
+        width: 385px;
         display: inline-block;
         background-image: url("../images/fe-card2.png");
         background-repeat:no-repeat;
         margin-left: 1.5rem;
     }
     .featured-event-card__3 {
-        width: 360px;
+        width: 385px;
         display: inline-block;
         background-image: url("../images/fe-card3.png");
         background-repeat:no-repeat;
         margin-left: 1.5rem;
+    }
+
+    /* Cards */
+    .largecard-top_image__1, .largecard-top_image__2 {
+        margin-bottom: 275px;
+    }
+    .largecard_image__1 {
+        width: 400px;
+        height: 285px;
+        background-image: url("../images/card1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .largecard_image__2 {
+        width: 400px;
+        height: 285px;
+        background-image: url("../images/card2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }

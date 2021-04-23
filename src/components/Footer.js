@@ -44,7 +44,7 @@ class Footer extends React.Component {
                         </div>
                         <div className="footer-university_twitter-body">
                             <div className="footer-university_twitter-body_text">
-                                Ludlow university students enjoying a selfie after the 2019 #campuspaintrun. A total of £4913.14 was raised for multiple charities.  #runformoney.
+                                <p>Ludlow university students enjoying a selfie after the 2019 #campuspaintrun. A total of £4913.14 was raised for multiple charities.  #runformoney.</p>
                             </div>
                             <div className="footer-university_twitter-time">
                                 11:44 AM · Jul 10, 2019
