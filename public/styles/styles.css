@@ -204,7 +204,10 @@ footer {
     float: right;
 }
 .hero-image_image {
-    width: 752px;
+    display: block;
+    /* max-width: 100%; */
+    /* width: 752px; */
+    width: 736px;
     margin-right: 3rem;
 }
 
@@ -478,7 +481,24 @@ footer {
 
 
 
+/* Media queries for top student image */
+@media only screen and (max-width: 1300px) {
+    body {
+        background-color: lightgreen;
+    }
+    header {
+        margin: 3rem 1rem;
+    }
 
+    .hero-image_image {
+        width: 576px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .hero-image_image {
+        width: 432px;
+    }
+}
 
 
 
