@@ -4,9 +4,6 @@ class Header extends React.Component {
     render() {
         return (
             <header>
-                <div id="student-life">
-                    Student Life @14.50
-                </div>
                 <div className="header-crest">
                     <div className="header-crest_crest">
                         <img src="images/crest.png" alt="Ludlow University crest" className="crest-image" width="40px"/>
